@@ -54,7 +54,7 @@ input,textarea{outline:none}
 <div id="root"></div>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const CFG={"slug": "monitoramento-publicacoes", "titulo": "Monitoramento de Publicações", "vertical": "Direito", "descricao": "Monitoramento inteligente de publicações no Diário Oficial (DJe) com NLP. Captura intimações e prazos automaticamente sem perder nada.", "ia": ["NLP", "NER", "Real-time"], "demo": "classify", "fonte": "Diário de Justiça Eletrônico", "fonteUrl": "https://www.cnj.jus.br", "kpis": [{"label": "Captura", "value": "99.8%", "delta": "+99%"}, {"label": "Prazos", "value": "0 perdidos", "delta": ""}, {"label": "Publicações", "value": "milhões", "delta": ""}, {"label": "Antecip.", "value": "auto", "delta": ""}], "chartType": "bar", "chartLabel": "Publicações por Tribunal", "series": [56.9, 61.4, 64.8, 74.1, 72.9, 69.6, 64.7, 59.5, 55.2, 52.7, 60.6, 62.9, 66.9, 71.6, 75.7, 78.2, 78.5, 84.3, 80.2, 75.0, 70.1, 66.5, 65.0, 66.0], "features": ["Captura automática do DJe", "Extração de prazos (NER)", "Vinculação a processos", "Alerta de intimação"], "color": "#8b5cf6", "icon": "⚖️", "portfolioUrl": "https://jhondados.github.io/portfolio", "githubUser": "jhondados"};
 const {useState,useEffect,useRef,useMemo}=React;
